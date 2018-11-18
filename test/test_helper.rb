@@ -10,5 +10,4 @@ require 'app_logger'
 AppLogger.logger = Logger.new(STDOUT)
 AppLogger.logger.level = Logger::WARN
 
-RSpec::Mocks.configuration.syntax = :expect
 MiniTest::Test.include Minitest::RSpecMocks
