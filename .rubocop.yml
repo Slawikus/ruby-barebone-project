@@ -1,13 +1,7 @@
-# Common configuration.
 AllCops:
   Exclude:
-    - db/**/*
-    - config/**/*
-    - script/**/*
     - Rakefile
-    - Guardfile
     - bin/*
-    - tmp/**/*
 
 LineLength:
   Enabled: true
