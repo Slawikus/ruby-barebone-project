@@ -1,4 +1,4 @@
-FROM ruby:2.5.3-slim-stretch
+FROM ruby:2.5.3-slim
 
 RUN groupadd -r app -g 1000
 RUN useradd -u 1000 -r -g app -m -s /sbin/nologin app
