@@ -10,4 +10,5 @@ group :test do
   gem 'pry'
   gem 'rake'
   gem 'rubocop', require: false
+  gem 'simplecov', require: false
 end
