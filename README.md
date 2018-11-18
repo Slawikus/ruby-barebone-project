@@ -1,0 +1,1 @@
+Ruby barebone project with RSpec and Docker
