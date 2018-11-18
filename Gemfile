@@ -3,7 +3,6 @@
 source 'https://rubygems.org'
 
 group :test do
-  gem 'bundler-audit'
   gem 'm'
   gem 'minitest'
   gem 'minitest-rspec_mocks'
