@@ -1,0 +1,65 @@
+# Common configuration.
+AllCops:
+  Exclude:
+    - db/**/*
+    - config/**/*
+    - script/**/*
+    - Rakefile
+    - Guardfile
+    - bin/*
+    - tmp/**/*
+
+LineLength:
+  Enabled: true
+  Max: 80
+
+Documentation:
+  Enabled: false
+
+AlignHash:
+  Enabled: false
+
+AsciiComments:
+  Enabled: false
+
+IndentationConsistency:
+  Enabled: false
+
+ConditionPosition:
+  Enabled: false
+
+AbcSize:
+  Enabled: false
+
+VariableNumber:
+  EnforcedStyle: snake_case
+  SupportedStyles:
+  - snake_case
+  - normalcase
+  - non_integer
+
+BlockLength:
+  CountComments: false
+  Max: 25
+  Exclude:
+  - 'test/**/*.rb'
+  - 'Rakefile'
+  - '**/*.rake'
+
+ClassLength:
+  CountComments: false
+  Exclude:
+  - 'test/**/*.rb'
+
+MethodLength:
+  Enabled: true
+  Exclude:
+  - 'test/**/*.rb'
+
+ModuleLength:
+  CountComments: false
+  Exclude:
+  - 'test/**/*.rb'
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
