@@ -1,1 +1,1 @@
-Ruby barebone project with RSpec and Docker
+Ruby barebone project with Minitest, RSpec-mocks and Docker
