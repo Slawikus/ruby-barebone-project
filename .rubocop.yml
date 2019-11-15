@@ -3,36 +3,36 @@ AllCops:
     - Rakefile
     - bin/*
 
-LineLength:
+Metrics/LineLength:
   Enabled: true
   Max: 80
 
-Documentation:
+Style/Documentation:
   Enabled: false
 
-AlignHash:
+Layout/AlignHash:
   Enabled: false
 
-AsciiComments:
+Style/AsciiComments:
   Enabled: false
 
-IndentationConsistency:
+Layout/IndentationConsistency:
   Enabled: false
 
-ConditionPosition:
+Layout/ConditionPosition:
   Enabled: false
 
-AbcSize:
+Metrics/AbcSize:
   Enabled: false
 
-VariableNumber:
+Naming/VariableNumber:
   EnforcedStyle: snake_case
   SupportedStyles:
   - snake_case
   - normalcase
   - non_integer
 
-BlockLength:
+Metrics/BlockLength:
   CountComments: false
   Max: 25
   Exclude:
@@ -40,17 +40,17 @@ BlockLength:
   - 'Rakefile'
   - '**/*.rake'
 
-ClassLength:
+Metrics/ClassLength:
   CountComments: false
   Exclude:
   - 'test/**/*.rb'
 
-MethodLength:
+Metrics/MethodLength:
   Enabled: true
   Exclude:
   - 'test/**/*.rb'
 
-ModuleLength:
+Metrics/ModuleLength:
   CountComments: false
   Exclude:
   - 'test/**/*.rb'
