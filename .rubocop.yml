@@ -3,17 +3,23 @@ AllCops:
     - Rakefile
     - bin/*
 
-Metrics/LineLength:
-  Enabled: true
-  Max: 80
-
 Style/Documentation:
   Enabled: false
 
-Layout/AlignHash:
+Style/AsciiComments:
   Enabled: false
 
-Style/AsciiComments:
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Naming/VariableNumber:
+  EnforcedStyle: snake_case
+  SupportedStyles:
+    - snake_case
+    - normalcase
+    - non_integer
+
+Layout/AlignHash:
   Enabled: false
 
 Layout/IndentationConsistency:
@@ -22,15 +28,12 @@ Layout/IndentationConsistency:
 Layout/ConditionPosition:
   Enabled: false
 
+Metrics/LineLength:
+  Enabled: true
+  Max: 80
+
 Metrics/AbcSize:
   Enabled: false
-
-Naming/VariableNumber:
-  EnforcedStyle: snake_case
-  SupportedStyles:
-  - snake_case
-  - normalcase
-  - non_integer
 
 Metrics/BlockLength:
   CountComments: false
@@ -54,6 +57,3 @@ Metrics/ModuleLength:
   CountComments: false
   Exclude:
   - 'test/**/*.rb'
-
-Style/FrozenStringLiteralComment:
-  Enabled: false
