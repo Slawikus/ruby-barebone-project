@@ -19,7 +19,7 @@ Naming/VariableNumber:
     - normalcase
     - non_integer
 
-Layout/AlignHash:
+Layout/HashAlignment:
   Enabled: false
 
 Layout/IndentationConsistency:
@@ -28,7 +28,7 @@ Layout/IndentationConsistency:
 Layout/ConditionPosition:
   Enabled: false
 
-Metrics/LineLength:
+Layout/LineLength:
   Enabled: true
   Max: 80
 
