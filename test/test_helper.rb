@@ -14,7 +14,7 @@ require 'pry'
 require 'logger'
 require 'app_logger'
 
-AppLogger.logger = Logger.new(STDOUT)
+AppLogger.logger = Logger.new($stdout)
 AppLogger.logger.level = Logger::WARN
 
 MiniTest::Test.include Minitest::RSpecMocks
