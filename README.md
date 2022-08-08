@@ -5,12 +5,12 @@ Includes Minitest, RSpec-mocks and Docker.
 
 To run the app in container:
 ```
-docker-compose run app
+docker compose run app
 ```
 
 To run tests in container:
 ```
-docker-compose run app test
+docker compose run app test
 ```
 
 To run app locally:
